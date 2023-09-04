@@ -43,7 +43,7 @@ class BrowserClient extends BaseClient {
   /// cross-site requests.
   ///
   /// Defaults to `false`.
-  bool withCredentials = false;
+  bool withCredentials = true;
 
   bool _isClosed = false;
 
